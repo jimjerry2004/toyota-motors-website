@@ -1,0 +1,105 @@
+:root {
+  --toyota-red: #EB0A1E;
+  --toyota-gold: #FFD700;
+  --gradient-1: linear-gradient(to right, #6E45E2, #89D4CF, #6E45E2);
+  --gradient-2: linear-gradient(to right, #FF005C, #FFD700);
+  --gradient-3: linear-gradient(to right, #2D2D4A, #3E3E6B, #4A4A7A);
+  --sidebar-bg: linear-gradient(to right, #2D2D4A, #3E3E6B, #4A4A7A);
+  --topbar-bg: linear-gradient(to right, #6E45E2, #89D4CF, #6E45E2);
+  --page-bg: linear-gradient(#3533cd,#3533cd,#FFD700,#3533cd);
+}
+
+.auth-body {
+  background: #111;
+}
+
+.auth-card {
+  background-image: linear-gradient(to right, purple, #FFD700);
+}
+
+.auth-header {
+  background: #000;
+}
+
+.auth-btn {
+  background-image: linear-gradient(#00A1F5, #00FF9D);
+  color: #000;
+}
+
+.social-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background-image: var(--page-bg);
+}
+
+.topbar {
+  background-image: var(--topbar-bg);
+}
+
+.startbar {
+  background-image: var(--sidebar-bg);
+}
+
+.card-toyota {
+  background-image: linear-gradient(to right, #FF005C, #FFD700);
+  border: none;
+  border-radius: 15px;
+  color: white;
+}
+
+.toyota-badge {
+  background: rgba(255,255,255,0.2);
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+}
+
+.tile {
+  border-radius: 15px;
+  border: none;
+  color: white;
+  height: 100%;
+}
+
+.footer-card {
+  background: transparent;
+  border: none;
+}
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.rounded-oval {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background-color: var(--toyota-red);
+  color: white;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.logo-lg {
+  height: 40px;
+  width: auto;
+}
+
+.logo-sm {
+  height: 40px;
+  width: auto;
+}
